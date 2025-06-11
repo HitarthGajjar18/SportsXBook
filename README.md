@@ -32,6 +32,16 @@ Postman (for API testing)
 Cloudinary or Firebase (for image uploads) (if used)
 Dotenv for environment configuration
 
+##🛡️ Role-Based Access Control
+
+Role	      Permissions
+Admin	      Manage all users, owners, and settings
+Owner	      Add/manage facilities, view bookings
+User	      Browse & book slots, manage cart
+
+### Installation
+
+```bash
 🚀 Getting Started
 1. Clone the Repository
 
@@ -86,9 +96,3 @@ sportsxbook/
 ├── .env
 └── README.md
 
-🛡️ Role-Based Access Control
-
-Role	      Permissions
-Admin	      Manage all users, owners, and settings
-Owner	      Add/manage facilities, view bookings
-User	      Browse & book slots, manage cart
