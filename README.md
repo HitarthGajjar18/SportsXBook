@@ -36,29 +36,30 @@ Dotenv for environment configuration
 1. Clone the Repository
 
     git clone https://github.com/your-username/sportsxbook.git
+
     cd sportsxbook
 
-2. Install Dependencies
+3. Install Dependencies
 
     Backend
     
-    cd backend
-    npm install
+        cd backend
+        npm install
 
     Frontend
     
-    cd frontend
-    npm install
+        cd frontend
+        npm install
 
-3. Environment Setup
+4. Environment Setup
 
     Create a .env file in the backend folder and configure the following:
     
-    PORT=5000
-    MONGO_URI=your_mongo_connection_string
-    JWT_SECRET=your_jwt_secret
+        PORT=5000
+        MONGO_URI=your_mongo_connection_string
+        JWT_SECRET=your_jwt_secret
 
-4. Run the Project
+5. Run the Project
 
     Backend
       npm start
