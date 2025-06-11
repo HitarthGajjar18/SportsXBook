@@ -36,6 +36,7 @@ Dotenv for environment configuration
 
 ```bash
 🚀 Getting Started
+
 1. Clone the Repository
 
     git clone https://github.com/your-username/sportsxbook.git
@@ -46,12 +47,12 @@ Dotenv for environment configuration
 
     Backend
     
-        cd backend
+        cd server
         npm install
 
     Frontend
     
-        cd frontend
+        cd sportsxbook-frontend
         npm install
 
 4. Environment Setup
@@ -64,27 +65,27 @@ Dotenv for environment configuration
 
 5. Run the Project
 
-    Backend
+    server
       npm start
     
-    Frontend
+    sportsxbook-frontend
       npm start
 
 🧪 API Endpoints
 You can document a few key routes here or link to a Postman collection if available.
 
-POST /api/auth/register – Register user
-POST /api/auth/login – Login user
-GET /api/slots – Get available slots
-POST /api/book – Book slot
-GET /api/admin/users – List all users (Admin)\
-GET /api/owner/bookings – Owner's booking summary
+POST /api/auth/register         – Register user
+POST /api/auth/login            – Login user
+GET /api/slots                  – Get available slots
+POST /api/book                  – Book slot
+GET /api/admin/users            – List all users (Admin)\
+GET /api/owner/bookings         – Owner's booking summary
 
 📁 Folder Structure
 
 sportsxbook/
 │
-├── server/        # Express server, models, controllers, routes
+├── server/                     # Express server, models, controllers, routes
 ├── sportsxbook-frontend/       # React app with pages, components, context/api
 ├── .env
 └── README.md
