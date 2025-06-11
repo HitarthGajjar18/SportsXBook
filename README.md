@@ -89,7 +89,7 @@ sportsxbook/
 ├── .env
 └── README.md
 
-## 🛡️ Role-Based Access Control
+🛡️ Role-Based Access Control
 
 Role	      Permissions
 Admin	      Manage all users, owners, and settings
