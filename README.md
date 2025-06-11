@@ -1,7 +1,7 @@
-🏆 SportsXBook – Sports Management System
+## 🏆 SportsXBook – Sports Management System
 SportsXBook is a full-stack sports management web application built using the MERN stack (MongoDB, Express.js, React, Node.js). It provides an efficient platform for users to book sports slots, manage bookings, and for admins and owners to monitor and control various aspects of the system.
 
-📌 Features
+## 📌 Features
 ✅ User Authentication & Authorization
 Secure registration and login with role-based access for:
 
@@ -9,19 +9,19 @@ Admin
 Owner
 User
 
-🛒 Cart System
+## 🛒 Cart System
 Users can add sports facilities or slots to the cart before confirming their booking.
 
-🕒 Time Management & Slot Booking
+## 🕒 Time Management & Slot Booking
 Book slots based on available time and dates dynamically chosen by the user.
 
-👥 Three Role Modules
+## 👥 Three Role Modules
 
 Admin – Manage users, owners, and system settings.
 Owner – Manage facility listings, slots, bookings, and track revenue.
 User – Browse, select, and book sports slots.
 
-🧱 Tech Stack (MERN)
+## 🧱 Tech Stack (MERN)
 Frontend: React, Redux Toolkit (if used), Axios, Tailwind CSS / Bootstrap
 
 Backend: Node.js, Express.js
@@ -32,7 +32,7 @@ Postman (for API testing)
 Cloudinary or Firebase (for image uploads) (if used)
 Dotenv for environment configuration
 
-##🛡️ Role-Based Access Control
+## 🛡️ Role-Based Access Control
 
 Role	      Permissions
 Admin	      Manage all users, owners, and settings
