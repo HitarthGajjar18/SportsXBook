@@ -1,0 +1,71 @@
+.admin-dashboard {
+    display: flex;
+    height: 100vh;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .side-panel {
+    background: linear-gradient(45deg, #0f172a, #38BDF8);  /* Gradient background */
+    padding: 20px;
+    height: 100vh;
+    width: 300px;
+    display: flex;
+    flex-direction: column;  /* Align items vertically */
+    justify-content: flex-start;
+    align-items: flex-start;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .side-panel-buttons {
+    display: flex;
+    flex-direction: column;  /* Buttons arranged vertically */
+    align-items: center;  /* Center buttons horizontally */
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .side-panel-buttons button {
+    background-color: #0f172a;
+    color: #ffffff;
+    padding: 12px 24px;
+    margin-bottom: 10px;  /* Space between buttons */
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 80%;  /* Optional: Make buttons take up 80% of the side panel width */
+  }
+  
+  .side-panel-buttons button:hover {
+    background-color: #1e293b;
+  }
+  
+  
+  .dashboard-content {
+    flex: 1;
+    padding: 30px;
+    overflow-y: auto;
+    background-color: #f8fafc;
+  }
+  
+  .table th, .table td {
+    vertical-align: middle;
+  }
+  
+  .download-pdf-button {
+    background-color: #38BDF8;
+    color: #0f172a;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    float: right;
+    margin-bottom: 20px;
+    transition: background-color 0.3s;
+  }
+  
+  .download-pdf-button:hover {
+    background-color: #1e293b;
+  }

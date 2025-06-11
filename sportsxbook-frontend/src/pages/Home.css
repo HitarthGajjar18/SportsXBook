@@ -1,0 +1,115 @@
+/* Scoped styles for Home.js only */
+
+.container {
+    background-color: #f9fbfc;
+  }
+  
+  /* Slider styles scoped to Home */
+
+/* Home Page Carousel Styling Only */
+
+.home-carousel {
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+  
+  .carousel-slide {
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .carousel-overlay {
+    background: rgba(15, 23, 42, 0.6); /* Dark overlay */
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+  }
+  
+  .carousel-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 1rem;
+  }
+  
+  .carousel-subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    color: #cbd5e1;
+  }
+  
+  .carousel-button {
+    background-color: #38BDF8;
+    border: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+    padding: 0.6rem 1.4rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .carousel-button:hover {
+    background-color: #0ea5e9;
+  }
+  
+  
+  .home-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #0f172a;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .sport-card {
+    border: 1px solid #dfe6e9;
+    box-shadow: 0 4px 8px rgba(15, 23, 42, 0.08);
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .sport-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 12px rgba(56, 189, 248, 0.25);
+  }
+  
+  .sport-image {
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .sport-title {
+    font-size: 1.4rem;
+    color: #0f172a;
+    font-weight: 600;
+  }
+  
+  .card-text {
+    color: #475569;
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+  }
+  
+  button.btn-primary {
+    background-color: #38BDF8;
+    border: none;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  button.btn-primary:hover {
+    background-color: #0ea5e9;
+  }
+  

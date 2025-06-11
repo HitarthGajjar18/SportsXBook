@@ -1,0 +1,30 @@
+.my-bookings-container {
+    padding: 2rem;
+  }
+  
+  .booking-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+  }
+  
+
+  .text-muted {
+    text-align: center;
+    font-style: italic;
+    margin-top: 1rem;
+  }
+  
+  .card-title {
+    font-weight: bold;
+  }
+  
+  .card {
+    border-left: 5px solid #38BDF8;
+  }
+  
+  button:hover {
+    background-color: #1e293b;
+  }
