@@ -1,6 +1,10 @@
 ## 🏆 SportsXBook – Sports Management System
 SportsXBook is a full-stack sports management web application built using the MERN stack (MongoDB, Express.js, React, Node.js). It provides an efficient platform for users to book sports slots, manage bookings, and for admins and owners to monitor and control various aspects of the system.
 
+MongoDB Database:
+Email:  rudramistri2004@gmail.com
+Password: Rudra@9586
+
 ## 📌 Features
 ✅ User Authentication & Authorization
 Secure registration and login with role-based access for:
